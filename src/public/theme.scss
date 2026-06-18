@@ -1,0 +1,63 @@
+@use '../_global';
+@use "../mixins";
+@use "../prefix-vars";
+
+
+// Absolute Header
+body {
+    &:not(.admin-bar) {
+        #{prefix-vars.$themePrefix} {
+            &-header {
+                #{prefix-vars.$varPrefix}-t: 0;
+            }
+        }
+    }
+}
+
+//Theme CSS
+
+#{prefix-vars.$themePrefix} {
+
+    //Absolute Header
+    &-header {
+        #{prefix-vars.$varPrefix}-pos: absolute;
+        #{prefix-vars.$varPrefix}-t: var(--wp-admin--admin-bar--height);
+        #{prefix-vars.$varPrefix}-l: 0;
+        #{prefix-vars.$varPrefix}-r: 0;
+        #{prefix-vars.$varPrefix}-z-idx: 9;
+    }
+
+
+    // Position styles
+    &-pos-style-1 {
+        #{prefix-vars.$varPrefix}-pos: relative;
+
+        #{prefix-vars.$themePrefix} {
+            &-overlay-box {
+                #{prefix-vars.$varPrefix}-b: 0;
+                #{prefix-vars.$varPrefix}-r: -100px;
+                #{prefix-vars.$varPrefix}-pos: absolute;
+            }
+        }
+    }
+
+    &-testimonials {
+        @include mixins.respond-above(md) {
+
+            #{prefix-vars.$varPrefix}-pos: relative;
+            #{prefix-vars.$varPrefix}-z-idx: 99;
+            #{prefix-vars.$varPrefix}-l: -40px;
+        }
+    }
+
+    &-image-style-1 {
+        img {
+
+            @include mixins.respond-above(md) {
+                margin-top: -80px;
+                position: relative;
+                z-index: 1;
+            }
+        }
+    }
+}
