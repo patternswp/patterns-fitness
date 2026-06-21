@@ -1,132 +1,43 @@
 # Patterns Fitness
 
-> **Patterns Fitness** is a dynamic and energetic block-based WordPress theme designed for gyms, fitness studios, personal trainers, and wellness professionals.
+Patterns Fitness is a dynamic and modern WordPress theme crafted for gyms, fitness  studios, personal trainers, and wellness professionals. Built with WordPress Full Site Editing (FSE), this theme offers full control to customize headers, footers, templates, and global styles seamlessly through the WordPress Site Editor. The theme includes pre-built patterns and layouts specifically designed to highlight fitness programs, trainer profiles, pricing plans, testimonials, and contact forms. It also features layouts for showcasing services, about pages, team sections, galleries, and client success stories. With a clean, responsive design, Patterns Fitness ensures your website looks strong, professional, and accessible on all devices—providing a powerful online platform to motivate and engage your fitness community.
 
-## Description
+Primary color: `#f34e3a`.
 
-Patterns Fitness is a modern and high-performance Full Site Editing (FSE) WordPress theme, ideal for gyms, fitness centers, personal trainers, and wellness coaches. Designed to highlight fitness programs, trainer profiles, class schedules, and client testimonials, this block-based theme empowers you to build a bold and energetic website. With FSE capabilities, Patterns Fitness allows easy customization of headers, footers, layouts, and global styles directly within the WordPress Site Editor.
-
-## Table of Contents
-
-- [Patterns Fitness](#patterns-fitness)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Getting Started](#getting-started)
-    - [Installation](#installation)
-    - [Activate the Theme](#activate-the-theme)
-    - [Start Customization](#start-customization)
-  - [Changelog](#changelog)
-  - [Contributing](#contributing)
-  - [Authors](#authors)
-  - [License & Attribution](#license--attribution)
-  - [About Us](#about-us)
+![screenshot](./screenshot.png)
 
 ## Features
 
-- **Full Site Editing (FSE):** Customize every aspect of your website using the WordPress block editor.
-- **Elegant Design:** Perfect for gyms, fitness studios, personal trainers, and wellness professionals.
-- **Responsive Layouts:** Optimized for seamless display on all devices.
-- **Pre-designed Templates:** Includes layouts for showcasing feature sections, services, about, prices, portfolios, team, testimonials, contact page, and more.
-- **Custom Block Patterns:** Simplify website creation with ready-to-use patterns.
-- **SEO Optimized:** Built with best practices for improved search engine rankings.
-- **High Performance:** Lightweight and optimized for fast loading.
+- 3 hero and landing patterns
+- 6 card layouts (card-1 through card-6)
+- 1 service section pattern
+- 5 archive/post-listing patterns
+- Contact page pattern (page-contact)
+- 1 menu navigation pattern
+- 16 section layout patterns (featured sections and section titles)
+- Full Site Editing (FSE) support
+- Responsive design
+- 69 block patterns + 15 templates + 11 template parts
+- Fitness-oriented layouts (classes, trainers, schedules)
 
-## Getting Started
+## Requirements
 
-### Installation
+- WordPress 6.6 or higher
+- PHP 7.0 or higher
+- Tested up to WordPress 6.7
 
-- Clone the repository to your `/wp-content/themes/` directory:
+## Development
 
-  ```bash
-  git clone https://github.com/patternswp/patterns-fitness.git
-  ```
+This theme uses `@wordpress/scripts`:
 
-- Or download and upload the theme files to `/wp-content/themes/patterns-fitness`.
+```sh
+npm install
+npm run start    # dev mode with watch
+npm run build    # production build
+```
 
-### Activate the Theme
+## License
 
-Activate the theme via the WordPress admin dashboard under **Appearance > Themes**.
+GNU General Public License v2 or later.
 
-### Start Customization
-
-With Full Site Editing support, you can customize the theme through the WordPress Site Editor by navigating to **Appearance > Editor**. Modify headers, footers, layouts, and global styles to suit your fitness needs.
-
-## Changelog
-
-### Version 1.0.0
-
-- Initial Release
-
-## Contributing
-
-We welcome contributions to improve Patterns Fitness! Here's how you can contribute:
-
-1. **Fork the Repository**  
-   Click the "Fork" button on the repository page.
-
-2. **Clone your Fork**
-
-   ```bash
-   git clone https://github.com/your-username/patterns-fitness.git
-   ```
-
-3. **Create a Feature Branch**
-
-   ```bash
-   git checkout -b my-new-feature
-   ```
-
-4. **Make Changes**  
-   Implement your changes and stage them:
-
-   ```bash
-   git add .
-   ```
-
-5. **Commit Changes**  
-   Commit with a descriptive message:
-
-   ```bash
-   git commit -m "Add feature for XYZ"
-   ```
-
-6. **Push to your Branch**  
-   Push your changes to your fork:
-
-   ```bash
-   git push origin my-new-feature
-   ```
-
-7. **Submit a Pull Request**  
-   Open a pull request with a clear title and description.
-
-Thank you for contributing to this project!
-
-## Authors
-
-- **PatternsWP.com** - [https://patternswp.com](https://patternswp.com)
-- **Santosh Kunwar** - [https://twitter.com/codersantosh](https://twitter.com/codersantosh)
-
-See the list of contributors who participated in this project.
-
-## License & Attribution
-
-Patterns Fitness WordPress Theme, (C) 2025 PatternsWP.com.  
-Patterns Fitness is distributed under the terms of the GNU GPL.
-
-This theme is based on WP Block Theme Boilerplate, (C) 2025 Santosh Kunwar, GPLv2 or later.  
-Atomic CSS, (C) 2025 Santosh Kunwar, MIT.
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-## About Us
-
-[PatternsWP – WordPress Patterns, Modern Plugins, and FSE Themes](https://patternswp.com/)
-
-### Recent Projects
-
-<a href="https://wordpress.org/plugins/patterns-store/" target="_blank">
-<img src="https://ps.w.org/patterns-store/assets/icon.svg" width="50" height="50" alt="Patterns Store Icon" />Patterns Store – Create a store for WordPress Patterns</a>
+This theme is based on [WP Block Theme Boilerplate](https://github.com/codersantosh/wp-block-theme-boilerplate), (C) 2025 Santosh Kunwar, [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html).
