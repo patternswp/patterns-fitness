@@ -18,7 +18,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:heading {"level":3,"fontSize":"medium"} -->
 <h3 class="wp-block-heading has-medium-font-size"><?php esc_html_e( 'Gym and Fitness Center', 'patterns-fitness' ); ?></h3>
 <!-- /wp:heading -->

@@ -19,7 +19,7 @@
 <!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1"}},"textColor":"base","fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-text-align-left has-base-color has-text-color has-x-large-font-size" style="font-style:normal;font-weight:700;line-height:1"><?php esc_html_e( 'We Can Give A Shape Of Your Body Here!', 'patterns-fitness' ); ?></h2>
 <!-- /wp:heading -->
- 
+
  <!-- wp:spacer {"height":"var:preset|spacing|20"} -->
 <div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

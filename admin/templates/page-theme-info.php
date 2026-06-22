@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					esc_html_e( 'Patterns Fitness is now active and ready to elevate your website. Jumpstart your build with a robust collection of one-click demo Starter Packages, dynamic Patterns, and flexible Pattern Kits—crafted for gyms, trainers, and fitness professionals.', 'patterns-fitness' );
 					?>
 				</p>
-		
+
 				<a href="https://patternswp.com/full-site-editing-fse-themes/patterns-fitness" target="_blank" rel="noopener noreferrer nofollow" class="patterns-fitness-gsn-btn patterns-fitness-btn-outline button button-primary button-hero patterns-fitness-install-plugins">
 					<?php esc_html_e( 'Documentation', 'patterns-fitness' ); ?>
 				</a>
@@ -57,7 +57,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 					</svg>
 					<div class="welcome-panel-column-content">
 						<h3>
-							<?php esc_html_e( 'Customize Templates, Template Parts & More', 'patterns-fitness' ); ?>    
+							<?php esc_html_e( 'Customize Templates, Template Parts & More', 'patterns-fitness' ); ?>
 						</h3>
 						<p>
 							<?php esc_html_e( 'With a block theme, you can customize every aspect of both the theme and the site, from headers and footers to individual blocks, providing a cohesive and personalized design.', 'patterns-fitness' ); ?>
@@ -121,7 +121,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							</h4>
 						</div>
 						<div class="patterns-fitness-card-body at-p at-p">
-							<div class="patterns-fitness-intro-auth--info">								
+							<div class="patterns-fitness-intro-auth--info">
 								<ul class="patterns-fitness-personal-detail at-flx at-flx-col at-gap">
 									<li class="">
 										<dl class="at-flx at-al-itm-ctr at-gap">
@@ -135,7 +135,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 												<a href="https://wordpress.org/support/theme/patterns-fitness" target="_blank" rel="noopener noreferrer nofollow">
 													<?php esc_html_e( 'Create A Ticket', 'patterns-fitness' ); ?>
 												</a>
-											</dd>                                                        
+											</dd>
 										</dl>
 									</li>
 									<li class="mt-2">
@@ -148,7 +148,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 											</dt>
 											<dd class="at-m">
 												<?php esc_html_e( 'Kathmandu, Nepal', 'patterns-fitness' ); ?>
-											</dd>                                                        
+											</dd>
 										</dl>
 									</li>
 								</ul>
@@ -163,7 +163,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 											<span class="dashicons dashicons-twitter"></span>
 										</a>
 									</li>
-								</ul>	
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -304,7 +304,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 										<?php
 									}
 									?>
-								</div>				
+								</div>
 							</div>
 						</div>
 							<?php
@@ -349,7 +349,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 							</div>
 						</div>
 					</div>
-		
+
 					<?php
 					$faqs = function_exists( 'patterns_fitness_get_theme_faq' ) ? patterns_fitness_get_theme_faq() : null;
 					if ( $faqs ) {
