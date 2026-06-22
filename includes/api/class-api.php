@@ -36,14 +36,14 @@ if ( ! class_exists( 'Patterns_Fitness_Api' ) ) {
 		/**
 		 * Rest route namespace.
 		 *
-		 * @var Patterns_Fitness_Api
+		 * @var string
 		 */
 		public $namespace = 'patterns-fitness/';
 
 		/**
 		 * Rest route version.
 		 *
-		 * @var Patterns_Fitness_Api
+		 * @var string
 		 */
 		public $version = 'v1';
 
