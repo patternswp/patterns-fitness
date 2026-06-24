@@ -24,24 +24,24 @@
             <?php esc_html_e( 'choose your plan', 'patterns-fitness' ); ?>
         </h6>
         <!-- /wp:heading -->
-    
+
         <!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"700","lineHeight":"1"}},"textColor":"base","fontSize":"x-large"} -->
         <h2 class="wp-block-heading has-text-align-left has-base-color has-text-color has-x-large-font-size"
             style="font-style:normal;font-weight:700;line-height:1">
             <?php esc_html_e( 'Our Affordable Pricing Plans', 'patterns-fitness' ); ?>
         </h2>
         <!-- /wp:heading -->
-    
+
         <!-- wp:spacer {"height":"var:preset|spacing|20"} -->
         <div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
         <!-- /wp:spacer -->
-    
+
         <!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.7"}},"textColor":"tertiary","fontSize":"small"} -->
         <p class="has-text-align-left has-tertiary-color has-text-color has-small-font-size" style="line-height:1.7">
             <?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas voluptatem maiores eaque similique non distinctio voluptates perspiciatis ', 'patterns-fitness' ); ?>
         </p>
         <!-- /wp:paragraph -->
-    
+
     </div>
     <!-- /wp:group -->
 
@@ -55,7 +55,7 @@
 
     <!-- wp:pattern {"slug":"patterns-fitness/card-5"} /-->
 
-    
+
 
     <!-- wp:columns {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":{"left":"var:preset|spacing|80"}},"border":{"radius":"5px"}},"backgroundColor":"quinary","textColor":"base"} -->
     <div class="wp-block-columns has-base-color has-quinary-background-color has-text-color has-background has-link-color"
@@ -89,7 +89,7 @@
                     <!-- wp:paragraph -->
                     <p><?php esc_html_e( '/ Mo', 'patterns-fitness' ); ?></p>
                     <!-- /wp:paragraph -->
-                     
+
                 </div>
                 <!-- /wp:group -->
             </div>

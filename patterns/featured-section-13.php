@@ -17,7 +17,7 @@
     <!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"0px","left":"var:preset|spacing|80"}}}} -->
     <div class="wp-block-columns alignwide are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"0"}}} -->
     <div class="wp-block-column is-vertically-aligned-center">
-        
+
     <!-- wp:spacer {"height":"var:preset|spacing|40"} -->
     <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
     <!-- /wp:spacer -->
@@ -47,13 +47,13 @@
 
     <!-- wp:column {"verticalAlignment":"center","layout":{"type":"constrained","justifyContent":"center"}} -->
     <div class="wp-block-column is-vertically-aligned-center">
-        
+
     <!-- wp:image {"width":"auto","height":"550px","aspectRatio":"3/4","scale":"contain","sizeSlug":"full","linkDestination":"none","className":"patterns-fitness-image-style-1"} -->
     <figure class="wp-block-image size-full is-resized patterns-fitness-image-style-1">
         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-12.png" style="aspect-ratio:3/4;object-fit:contain;width:auto;height:550px"/></figure>
         <!-- /wp:image -->
     </div>
-    
+
     <!-- /wp:column --></div>
     <!-- /wp:columns -->
 

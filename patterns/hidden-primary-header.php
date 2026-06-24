@@ -19,7 +19,7 @@
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"15px","bottom":"15px"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide" style="padding-top:15px;padding-bottom:15px;"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group">
-    
+
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group">
 
@@ -90,7 +90,7 @@
 
 <!-- wp:social-links {"iconColor":"default","iconColorValue":"#ffffff","size":"has-small-icon-size","align":"center","className":"is-style-logos-only","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|20"}}}} -->
 <ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-logos-only">
-    
+
 <!-- wp:social-link {"url":"#","service":"twitter"} /-->
 <!-- wp:social-link {"url":"#","service":"instagram"} /-->
 <!-- wp:social-link {"url":"#","service":"whatsapp"} /-->

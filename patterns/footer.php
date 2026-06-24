@@ -157,7 +157,7 @@
 <div class="wp-block-group alignfull has-secondary-background-color has-background">
     <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
     <div class="wp-block-group alignwide"
-        style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)"> 
+        style="padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 
     <!-- wp:navigation {"textColor":"quaternary","overlayMenu":"never","style":{"typography":{"textTransform":"capitalize","fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
         <!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Condition', 'patterns-fitness' ); ?>","url":"#"} /-->

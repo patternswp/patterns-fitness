@@ -1,6 +1,6 @@
 <?php
 /**
- * Title:404
+ * Title: 404
  * Slug: patterns-fitness/hidden-404
  * Inserter: no
  *
@@ -15,8 +15,8 @@
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-5.jpg","dimRatio":80,"overlayColor":"base","isUserOverlayColor":true,"minHeight":70,"minHeightUnit":"vh","align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|30","left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-cover alignfull" style="padding-right:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30);min-height:70vh"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-80 has-background-dim"></span><img class="wp-block-cover__image-background" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/img/img-5.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:group {"tagName":"main","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-    
-    
+
+
 <!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"xx-large"} -->
 <h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Ooops!', 'patterns-fitness' ); ?></h1>
 <!-- /wp:heading -->
